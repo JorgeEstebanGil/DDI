@@ -15,10 +15,10 @@ public class PokemonRepositorio {
     JdbcTemplate jdbcTemplate;
 
     public List<Pokemon> getTodosPokemon(){
-        List<Pokemon> listaMascotas = jdbcTemplate.query(
+        List<Pokemon> listaPokemon = jdbcTemplate.query(
                 "SELECT * FROM pokemon",
                 new PokemonRowMapper());
-        return listaMascotas;
+        return listaPokemon;
     }
 
     public Pokemon getPokemonPorId(int idPokemon){
@@ -33,13 +33,13 @@ public class PokemonRepositorio {
     }
 
     public void actualizarPokemon(Pokemon pokemon){
-        String query = "UPDATE pokemon SET nombre = ?, region = ?, region_id = ? WHERE id = ?";
+        String query = "UPDATE pokemon SET nombre = ?, region_id = ? WHERE id = ?";
         jdbcTemplate.update(query,
-                pokemon.getNombre(), pokemon.getRegion(), pokemon.getRegion_id(), pokemon.getId());
+                pokemon.getNombre(), pokemon.getRegion_id(), pokemon.getId());
     }
 
     public void insertarPokemon(Pokemon pokemon){
-        String query = "INSERT INTO pokemon (nombre, region, region_id) VALUES (?, ?, ?);";
-        jdbcTemplate.update(query, pokemon.getNombre(), pokemon.getRegion(), pokemon.getRegion_id());
+        String query = "INSERT INTO pokemon (nombre, region_id) VALUES (?, ?, ?);";
+        jdbcTemplate.update(query, pokemon.getNombre(), pokemon.getRegion_id());
     }
 }

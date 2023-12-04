@@ -1,6 +1,7 @@
 package com.example.pokemon.repositorio;
 
 import com.example.pokemon.modelos.Pokemon;
+import com.example.pokemon.modelos.Region;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
@@ -12,8 +13,9 @@ public class PokemonRowMapper implements RowMapper<Pokemon> {
     public Pokemon mapRow(ResultSet rs, int rowNum) throws SQLException {
         Pokemon pokemon = new Pokemon();
         pokemon.setId(rs.getInt("id"));
-        pokemon.setNombre(rs.getString("nombre"));
-        pokemon.setRegion(rs.getString("region"));
+
+        Region region = new Region();
+        pokemon.setRegion_id(rs.getInt("region_id"));
         return pokemon;
     }
 }

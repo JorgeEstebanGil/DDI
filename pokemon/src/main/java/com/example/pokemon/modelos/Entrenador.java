@@ -1,16 +1,18 @@
 package com.example.pokemon.modelos;
 
+public class Entrenador {
 
-public class Region {
     private int id;
     private String nombre;
+    private boolean active;
 
-    public Region(int id, String nombre) {
+    public Entrenador(int id, String nombre, boolean active){
         this.id = id;
         this.nombre = nombre;
+        this.active = active;
     }
 
-    public Region() {
+    public Entrenador(){
     }
 
     public int getId() {
@@ -27,5 +29,13 @@ public class Region {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
     }
 }

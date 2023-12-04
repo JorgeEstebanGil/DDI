@@ -22,6 +22,7 @@ public class PokemonController {
     @Autowired
     private RegionController regionController;
 
+
     @RequestMapping("/listaPokemon")
     public String listaPokemon(Model model){
         List<Pokemon> listaPokemon = pokemonRepositorio.getTodosPokemon();
@@ -33,14 +34,13 @@ public class PokemonController {
     public String formInsertarPokemon(Model model){
         Pokemon pokemon = new Pokemon();
         model.addAttribute("nuevoPokemon", pokemon);
-        model.addAttribute("listaRegiones", regionController.getTodasRegiones());
+        model.addAttribute("listaRegiones", regionController.getTodosRegion());
         return "formPokemon";
     }
 
     @RequestMapping("/insertarPokemon")
     public String insertarPokemon(Pokemon pokemon, @RequestParam String idRegion, Model model){
         Region region = regionController.getRegionPorId(Integer.parseInt(idRegion));
-        pokemon.setRegion(region);
         pokemonRepositorio.insertarPokemon(pokemon);
         return listaPokemon(model);
     }
@@ -49,14 +49,13 @@ public class PokemonController {
     public String formModificarPokemon(Model model, @PathVariable String id){
         Pokemon pokemon = pokemonRepositorio.getPokemonPorId(Integer.parseInt(id));
         model.addAttribute("pokemon", pokemon);
-        model.addAttribute("listaRegiones", regionController.getTodasRegiones());
+        model.addAttribute("listaRegiones", regionController.getTodosRegion());
         return "formModificarPokemon";
     }
 
     @RequestMapping("/actualizarPokemon")
     public String actualizarPokemon(Pokemon pokemon, @RequestParam String idRegion, Model model){
         Region region = regionController.getRegionPorId(Integer.parseInt(idRegion));
-        pokemon.setRegion(region);
         pokemonRepositorio.actualizarPokemon(pokemon);
         return listaPokemon(model);
     }

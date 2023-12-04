@@ -1,11 +1,20 @@
 CREATE TABLE IF NOT EXISTS REGION(
-                                     id bigint auto_increment,
+                                     id int auto_increment,
                                      nombre varchar(25)
 );
 
 CREATE TABLE IF NOT EXISTS POKEMON(
-                                      id bigint auto_increment,
+                                      id int auto_increment PRIMARY KEY,
                                       nombre varchar(50),
                                       region INT,
-                                      FOREIGN KEY (region) REFERENCES REGION(id)
+                                      entrenador INT,
+                                      //FOREIGN KEY (region) REFERENCES REGION(id)
+                                      FOREIGN KEY (entrenador) REFERENCES ENTRENADOR(id)
 );
+
+CREATE TABLE IF NOT EXISTS ENTRENADOR(
+                                        id int auto_increment PRIMARY KEY,
+                                        nombre varchar(50),
+                                        active boolean,
+);
+
