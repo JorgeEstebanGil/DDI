@@ -12,6 +12,8 @@ public class Pokemon {
         this.region = region;
         this.region_id = region_id;
     }
+    public Pokemon() {
+    }
 
     public int getId() {
         return id;
