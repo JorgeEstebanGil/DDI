@@ -15,18 +15,17 @@ public class EntrenadorRepositorio {
 
     public List<Entrenador> getTodosEntrenadores(){
         String query = "SELECT * FROM entrenador;";
-        List<Entrenador> listaEntrenadores = jdbcTemplate.query(query, new EntrenadorRowMapper());
-        return listaEntrenadores;
+        return jdbcTemplate.query(query, new EntrenadorRowMapper());
     }
 
     public Entrenador getEntrenadorPorId(int id){
-        String query = "SELECT * FROM entrenador e WHERE e.id = ?";
+        String query = "SELECT * FROM entrenador WHERE id = ?";
         List<Entrenador> listaEntrenadores = jdbcTemplate.query(query, new EntrenadorRowMapper(), id);
         return (listaEntrenadores.isEmpty())? null: listaEntrenadores.get(0);
     }
 
     public void eliminarEntrenador(Entrenador entrenador){
-        String query = "DELETE FROM entrenador e WHERE e.id = ?";
+        String query = "DELETE FROM entrenador WHERE id = ?;\n";
         jdbcTemplate.update(query, entrenador.getId());
     }
 

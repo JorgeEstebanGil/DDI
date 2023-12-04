@@ -26,7 +26,7 @@ public class RegionRepositorio {
     }
 
     public void eliminarRegion(Region region){
-        String query = "DELETE FROM region r WHERE r.id = ?";
+        String query = "DELETE FROM region  WHERE id = ?";
         jdbcTemplate.update(query, region.getId());
     }
 
