@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario inserción entrenador</title>
+</head>
+<body>
+
+<h1>Insertar un nuevo entrenador</h1>
+<form action="#" th:action="@{/insertarEntrenador}" th:object="${entrenador}" method="post">
+    <p>Nombre: <input type="text" th:field="*{nombre}"></p>
+    <p><input type="submit" value="Insertar"></p>
+</form>
+<a th:href="@{/listaEntrenadores}"><h3>Volver al listado de entrenadores</h3></a>
+<a th:href="@{/}"><h3>Volver al índice</h3></a>
+
+</body>
+</html>

@@ -79,6 +79,19 @@ public class EntrenadorController {
         }
     }
 
+    @RequestMapping("/hacerActivoEntrenador/{id}")
+    //al hacer activo debe poner el resto a inactivo
+    public String hacerActivoEntrenador(int id, Model model){
+        Entrenador entrenador = entrenadorRepositorio.getEntrenadorPorId(id);
+        if (entrenador != null) {
+            entrenadorRepositorio.hacerEntrenadorActivo(entrenador);
+            return listadoEntrenadores(model);
+        }
+        else{
+            return "paginaError";
+        }
+    }
+
     public List<Entrenador> getTodosEntrenadores(){
         return entrenadorRepositorio.getTodosEntrenadores();
     }

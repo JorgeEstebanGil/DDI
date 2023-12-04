@@ -39,4 +39,9 @@ public class EntrenadorRepositorio {
         jdbcTemplate.update(query, entrenador.getNombre(), entrenador.isActive());
     }
 
+    public void hacerEntrenadorActivo(Entrenador entrenador){
+        String query = "UPDATE entrenador SET active = TRUE WHERE id = ?";
+        jdbcTemplate.update(query, entrenador.getId());
+    }
+
 }

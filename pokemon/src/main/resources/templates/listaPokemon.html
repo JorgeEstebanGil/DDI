@@ -9,14 +9,18 @@
     <tr>
         <th>Id</th>
         <th>Nombre</th>
+        <th>Acciones</th>
     </tr>
     <tr th:each="pokemon : ${listaPokemones}">
         <td th:text="${pokemon.id}"></td>
         <td th:text="${pokemon.nombre}"></td>
-        <td><a th:href="@{'/formModificarPokemon/'+${pokemon.id}}"><input type="button" value="Cambiar nombre"></a></td>
-        <td><a th:href="@{'/avisoEliminarPokemon/'+${pokemon.id}}"><input type="button" value="Eliminar pokemon"></a></td>
+        <td>
+            <a th:href="@{'/formModificarPokemon/'+${pokemon.id}}"><button>Cambiar nombre</button></a>
+            <a th:href="@{'/avisoEliminarPokemon/'+${pokemon.id}}"><button>Eliminar pokemon</button></a>
+        </td>
     </tr>
 </table>
 <a th:href="@{/formInsertarPokemon}"><h3>Insertar un nuevo pokemon</h3></a>
 <a th:href="@{/}"><h3>Volver al índice</h3></a>
 </body>
+</html>

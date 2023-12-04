@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario inserción Pokemon</title>
+</head>
+<body>
+
+<h1>Insertar un nuevo Pokemon</h1>
+<form action="#" th:action="@{/insertarPokemon}" th:object="${pokemon}" method="post">
+    <p>Nombre: <input type="text" th:field="*{nombre}"></p>
+    <p><input type="submit" value="Insertar"></p>
+</form>
+<a th:href="@{/listaPokemones}"><h3>Volver al listado de pokemones</h3></a>
+<a th:href="@{/}"><h3>Volver al índice</h3></a>
+
+</body>
+</html>

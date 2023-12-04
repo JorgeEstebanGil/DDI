@@ -26,8 +26,11 @@ public class RegionRepositorio {
     }
 
     public void eliminarRegion(Region region){
-        String query = "DELETE FROM region  WHERE id = ?";
+        //Borrar la region y todos sus  pokemon
+        String query = "DELETE FROM pokemon WHERE region_id = ?";
+        String query2 = "DELETE FROM region WHERE id = ?";
         jdbcTemplate.update(query, region.getId());
+        jdbcTemplate.update(query2, region.getId());
     }
 
     public void actualizarRegion(Region region){
