@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6353770b-5b93-4e72-b29d-2a374ba6e29a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.devcontainer/devcontainer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/logs/examen.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/es/salesianos/controller/HangleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/es/salesianos/controller/MyErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/es/salesianos/model/BiologiaWordList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/es/salesianos/model/DerechoWordList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/es/salesianos/model/Dificulty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/es/salesianos/model/Easy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/es/salesianos/model/Hard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/es/salesianos/model/InformaticaWordList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/es/salesianos/model/Normal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/java/es/salesianos/model/WordList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/webapp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ahorcado/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/ValorReferencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/caballeros/ChicoRedes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/caballeros/Futbolista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/caballeros/Hombres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/caballeros/Informatico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/caballeros/Presumido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/caballeros/Programador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/damas/Calladas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/damas/Lanzadas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/damas/Mujeres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/meetingPoint/Bar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/meetingPoint/Clase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/meetingPoint/PuntoReunion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/main/java/es/salesianos/meetingPoint/Tinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/src/test/java/interfaces/TestPuntoReunion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interfaces/test/es/salesianos/meetingPoint/ClaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jdbc/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jdbc/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jdbc/src/main/java/com/dao/PersonDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jdbc/src/main/java/com/dao/PersonPlusDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jdbc/src/main/java/com/daoimpl/PersonDaoH2Impl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jdbc/src/main/java/com/daoimpl/PersonDaoOracleImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jdbc/src/main/java/com/entities/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jdbc/src/main/java/com/util/ConnectionConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/ObjetosParametros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/ValorReferencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/es/salesianos/connection/AbstractConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/es/salesianos/connection/H2Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/es/salesianos/model/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/es/salesianos/repository/ActividadesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/es/salesianos/servlet/AbstractServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/es/salesianos/servlet/BaseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/es/salesianos/servlet/EliminarServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/es/salesianos/servlet/InsertDataServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/es/salesianos/servlet/ValidationServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/java/es/salesianos/servlet/VerActividadesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/resources/scripts/create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/webapp/Validation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/webapp/fail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/webapp/feedback.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/webapp/listActivities.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/webapp/msgValidation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspJstlServlet/src/main/webapp/ok.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mastermind/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mastermind/src/main/java/MasterMindPostman/MasterMindPostman/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mastermind/src/main/java/es/salesianos/edu/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mastermind/src/main/java/es/salesianos/edu/model/GameOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mastermind/src/main/java/es/salesianos/edu/model/Record.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mastermind/src/main/java/es/salesianos/edu/model/UserAnswer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mastermind/src/main/java/es/salesianos/edu/model/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mastermind/src/main/java/es/salesianos/edu/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mastermind/src/main/java/es/salesianos/edu/rest/MasterMindPostmanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mastermind/src/main/java/es/salesianos/edu/rest/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/java/SpringBootWebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/java/es/salesianos/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/java/es/salesianos/model/AbstractBag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/java/es/salesianos/model/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/java/es/salesianos/model/BagLevel1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/java/es/salesianos/model/BagLevel2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/java/es/salesianos/model/BagLevel3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/java/es/salesianos/model/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/java/es/salesianos/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/java/es/salesianos/model/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PUBG_exam/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/connection/ConnectionH2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/connection/ConnectionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/model/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/model/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/model/assembler/OwnerAssembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/model/assembler/PetAssembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/service/OwnerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/service/PetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/servlet/ConfirmDeleteOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/servlet/ListadoOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/servlet/addOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/servlet/addPetServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/servlet/deleteOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/servlet/editOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/servlet/recoveryAddOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/servlet/updateOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/java/es/salesianos/utils/DateConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/resources/scripts/create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/resources/test.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/webapp/addOwner.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/webapp/addPet.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/webapp/confirmDelete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/webapp/deleteOwner.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/webapp/editOwner.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/webapp/listOwner.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/webapp/ownerEdited.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PetClinic/src/main/webapp/ownerSaved.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/connection/ConnectionH2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/connection/ConnectionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/model/Classroom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/model/UserClassroomDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/model/assembler/UserAssembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/service/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/servlet/EditServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/servlet/ListadoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/servlet/WelcomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/java/es/salesianos/utils/DateConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/resources/scripts/create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/webapp/datos.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/webapp/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/webapp/fin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/main/webapp/listado.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/test/java/es/salesianos/servlet/WelcomeServletTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletJsp/src/test/java/es/salesianos/utils/DateConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/assembler/UserAssembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/connection/AbstractConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/connection/H2Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/connection/OpenClose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/model/UserTeam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/repository/AbstractRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/repository/UserTeamRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/service/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/service/UserTeamService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/servlet/DeleteServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/servlet/ListadoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/servlet/SpringBaseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/servlet/UpdateServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/java/es/salesianos/servlet/WelcomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/resources/scripts/create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/webapp/Listado.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/webapp/Update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServletSpring/src/main/webapp/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/context/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/es/salesianos/connection/AbstractConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/es/salesianos/connection/H2Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/es/salesianos/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/es/salesianos/model/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/es/salesianos/repository/ActividadesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/es/salesianos/servlet/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/spring/Altavoz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/spring/Escaner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/spring/Monitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/spring/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/spring/Raton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/spring/Tecla.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/spring/Teclado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/java/spring/Torre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/resources/spring-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/resources/test.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/webapp/WEB-INF/spring-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBasic/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/connection/ConnectionH2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/connection/ConnectionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/ActivityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/AddOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/AddPetServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/ConfirmDeleteOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/DeleteOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/EditOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/ListOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/MyErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/RecoveryAddOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/UpdateOwnerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/rest/OwnerRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/controller/rest/StudentRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/model/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/model/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/model/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/model/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/repository/OwnerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/service/OwnerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/service/OwnerService2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/service/OwnerServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/service/PetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/java/es/salesianos/utils/DateConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/resources/scripts/create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/resources/test.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/activity.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/activity2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/addOwner.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/addPet.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/confirmDelete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/deleteOwner.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/editOwner.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/formAddActivity.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/formAddActivitySimpleForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/listOwner.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/ownerEdited.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/ownerSaved.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/jsp/thankyouforplaying.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/spring-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJsp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/java/es/salesianos/examen/ExamenApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/java/es/salesianos/model/Console.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/java/es/salesianos/model/VideoGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/java/es/salesianos/repository/ConsoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/java/es/salesianos/repository/ConsoleRepositoryMALVADO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/java/es/salesianos/repository/VideoGameRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/java/es/salesianos/servlet/InsertConsoleServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/java/es/salesianos/servlet/ListConsoleServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/js/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/resources/static/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/resources/static/built/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/resources/static/built/bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/webapp/WEB-INF/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringJpa/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/SpringBootWebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/controller/CookingTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/controller/MyErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/detabase/DatabaseConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/model/CookingTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/model/CookingType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/model/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/model/Recipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/repository/CookingTypeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/service/CookingTypeServiceDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/service/CookingTypeServiceFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/service/CookingTypeServiceMemory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/java/es/salesianos/service/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/resources/scripts/create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/resources/test.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/webapp/WEB-INF/jsp/cookingType.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/webapp/WEB-INF/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVCBasic/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/java/BasicSpringBootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/java/configuration/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/java/configuration/DefaultConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/java/configuration/ProConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/java/configuration/TestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/java/controller/MyErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/java/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/java/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/resources/application-pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/webapp/WEB-INF/jsp/addStudentPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/webapp/WEB-INF/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/webapp/WEB-INF/jsp/formWithParams.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringbootBasic/src/main/webapp/WEB-INF/spring-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../servletMinimal" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YONwpqAZA3DJwxnvetV8YsOTM3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Jorge Esteban/Documents/GS_DAM/SEGUNDO/DDI/biblioteca",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SpringBootWebApplicationStepByStep-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SpringBootWebApplicationStepByStep-master" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootFirstWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot-first-web-application-git" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.in28minutes.springboot.web.SpringBootFirstWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6353770b-5b93-4e72-b29d-2a374ba6e29a" name="Changes" comment="" />
+      <created>1700392907096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700392907096</updated>
+      <workItem from="1700392908100" duration="104000" />
+      <workItem from="1701600167485" duration="499000" />
+      <workItem from="1701600871897" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

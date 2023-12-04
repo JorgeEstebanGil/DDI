@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            var anoLanzamientoInput = document.getElementById('anoLanzamiento');
+            var selectBreweryNew = document.getElementById('selectBreweryNew');
+            var selectBreweryOld = document.getElementById('selectBreweryOld');
+
+            anoLanzamientoInput.addEventListener('input', function() {
+                var selectedYear = parseInt(anoLanzamientoInput.value);
+                if (!isNaN(selectedYear)) {
+                    if (selectedYear > 2000) {
+                        selectBreweryNew.style.display = 'block';
+                        selectBreweryOld.style.display = 'none';
+                    } else {
+                        selectBreweryNew.style.display = 'none';
+                        selectBreweryOld.style.display = 'block';
+                    }
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<form th:action="@{/insertarBeer}" th:object="${nuevaBeer}" method="post">
+    <h3>ID</h3>
+    <input type="hidden" th:field="*{id}" />
+    <h3>Nombre</h3>
+    <input type="text" th:field="*{nombre}" />
+    <h3>Año lanzamiento</h3>
+    <input type="text" th:field="*{anoLanzamiento}" id="anoLanzamiento" />
+
+    <h3> Codigo Cerveceria</h3>
+    <select th:field="*{codigoBreweryNew}" id="selectBreweryNew" style="display: none;">
+        <option th:each="codigoBreweryNew: ${brewery_new}" th:value="${BreweryNewModel.id}" th:text="${BreweryNewModel.nombre}"/>
+    </select>
+    <select th:field="*{codigoBreweryOld}" id="selectBreweryOld" style="display: none;">
+        <option th:each="almacen: ${brewery_old}" th:value="${BreweryOldModel.id}" th:text="${BreweryOldModel.nombre}"/>
+    </select>
+
+    <input type="submit" value="Enviar" />
+</form>
+</body>
+</html>
