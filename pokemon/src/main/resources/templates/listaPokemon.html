@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Lista de pokemones</title>
+    <meta charset="utf-8">
+    <title>Listado de pokemon</title>
 </head>
 <body>
-<table style="border:solid 2px; border-radius: 1px;">
+<table style="border:solid 2px; border-radius: 10px; color: darkcyan">
     <tr>
         <th>Id</th>
         <th>Nombre</th>
-        <th>Acciones</th>
+        <th>Region</th>
+        <th>Entrenador</th>
     </tr>
-    <tr th:each="pokemon : ${listaPokemones}">
+    <tr th:each="pokemon : ${listaPokemon}">
         <td th:text="${pokemon.id}"></td>
         <td th:text="${pokemon.nombre}"></td>
-        <td>
-            <a th:href="@{'/formModificarPokemon/'+${pokemon.id}}"><button>Cambiar nombre</button></a>
-            <a th:href="@{'/avisoEliminarPokemon/'+${pokemon.id}}"><button>Eliminar pokemon</button></a>
-        </td>
     </tr>
 </table>
 <a th:href="@{/formInsertarPokemon}"><h3>Insertar un nuevo pokemon</h3></a>

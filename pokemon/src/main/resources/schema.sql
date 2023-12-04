@@ -4,9 +4,9 @@ CREATE TABLE IF NOT EXISTS REGION (
 );
 
 CREATE TABLE IF NOT EXISTS ENTRENADOR (
-                                          id INT AUTO_INCREMENT PRIMARY KEY,
-                                          nombre VARCHAR(50),
-                                          active BOOLEAN
+                                      id INT AUTO_INCREMENT PRIMARY KEY,
+                                      nombre VARCHAR(50),
+                                      active BOOLEAN
 );
 
 CREATE TABLE IF NOT EXISTS POKEMON (

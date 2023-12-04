@@ -1,9 +1,11 @@
 package com.example.pokemon.controller;
 
+import com.example.pokemon.modelos.Entrenador;
 import com.example.pokemon.modelos.Region;
 import com.example.pokemon.repositorio.RegionRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -16,8 +18,10 @@ public class RegionController {
     private RegionRepositorio regionRepositorio;
 
     @RequestMapping("/listaRegion")
-    public String listadoRegion(){
-        return "listaRegion";
+    public String listadoRegion(Model model){
+        List<Region> listaRegiones = regionRepositorio.getTodosRegiones();
+        model.addAttribute("listaRegiones", listaRegiones);
+        return "listaEntrenadores";
     }
 
     @RequestMapping("/formModificarRegion/{id}")
@@ -68,7 +72,7 @@ public class RegionController {
     }
 
     public List<Region> getTodosRegion(){
-        return regionRepositorio.getTodosRegion();
+        return regionRepositorio.getTodosRegiones();
     }
 
     public Region getRegionPorId(int id){

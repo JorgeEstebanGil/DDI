@@ -5,7 +5,7 @@
     <title>Listado de entrenadores</title>
 </head>
 <body>
-<table style="border:solid 2px; border-radius: 1px;">
+<table style="border:solid 2px; border-radius: 10px; color: darkcyan">
     <tr>
         <th>Id</th>
         <th>Nombre</th>
@@ -15,13 +15,9 @@
         <td th:text="${entrenadores.id}"></td>
         <td th:text="${entrenadores.nombre}"></td>
         <td th:text="${entrenadores.active}"></td>
-        <td><a th:href="@{'/formModificarDueno/'+${entrenadores.id}}"><input type="button" value="Cambiar nombre"></a></td>
-        <td><a th:href="@{'/avisoEliminarDueno/'+${entrenadores.id}}"><input type="button" value="Eliminar entrenador"></a></td>
-        //Cambia a activo o inactivo
-        <td><a th:href="@{'/avisoEliminarDueno/'+${entrenadores.id}}"><input type="button" value="Eliminar entrenador"></a></td>
     </tr>
 </table>
-<a th:href="@{/formInsertarDueno}"><h3>Insertar un nuevo dueño</h3></a>
+<a th:href="@{/formInsertarEntrenador.html}"><h3>Insertar un nuevo entrenador</h3></a>
 <a th:href="@{/}"><h3>Volver al índice</h3></a>
 </body>
 </html>

@@ -2,24 +2,23 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
-    <title>Listado de Regiones</title>
+    <title>Listado de entrenadores</title>
 </head>
 <body>
-<table style="border:solid 2px; border-radius: 1px;">
+<table style="border:solid 2px; border-radius: 10px; color: darkcyan">
     <tr>
         <th>Id</th>
         <th>Nombre</th>
-        <th>Active</th>
     </tr>
-    <tr th:each="regiones : ${listaEntrenadores}">
+    <tr th:each="regiones : ${listaRegiones}">
         <td th:text="${regiones.id}"></td>
         <td th:text="${regiones.nombre}"></td>
-        <td><a th:href="@{'/avisoEliminarDueno/'+${regiones.id}}"><input type="button" value="Eliminar entrenador"></a></td>
-        //Cambia a activo o inactivo
-        <td><a th:href="@{'/avisoEliminarDueno/'+${regiones.id}}"><input type="button" value="Eliminar entrenador"></a></td>
+    </tr>
+    <tr>
+        <td><a th:href="@{'/avisoEliminarRegion/'+${regiones.id}}"><input type="button" value="Eliminar region"></a></td>
     </tr>
 </table>
-<a th:href="@{/formInsertarDueno}"><h3>Insertar un nuevo dueño</h3></a>
+<a th:href="@{/formInsertarRegion}"><h3>Insertar un nuevo entrenador</h3></a>
 <a th:href="@{/}"><h3>Volver al índice</h3></a>
 </body>
 </html>

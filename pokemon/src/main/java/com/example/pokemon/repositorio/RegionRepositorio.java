@@ -1,5 +1,6 @@
 package com.example.pokemon.repositorio;
 
+import com.example.pokemon.modelos.Entrenador;
 import com.example.pokemon.modelos.Region;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -13,10 +14,10 @@ public class RegionRepositorio {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
-    public List<Region> getTodosRegion(){
-        String query = "SELECT * FROM region;";
-        List<Region> listaRegion = jdbcTemplate.query(query, new RegionRowMapper());
-        return listaRegion;
+    public List<Region> getTodosRegiones(){
+        String query ="SELECT * FROM region;";
+        List<Region> listaRegiones = jdbcTemplate.query(query, new RegionRowMapper());
+        return listaRegiones;
     }
 
     public Region getRegionPorId(int id){

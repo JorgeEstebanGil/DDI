@@ -84,11 +84,12 @@ public class EntrenadorController {
     public String hacerActivoEntrenador(int id, Model model){
         Entrenador entrenador = entrenadorRepositorio.getEntrenadorPorId(id);
         if (entrenador != null) {
-            entrenadorRepositorio.hacerEntrenadorActivo(entrenador);
+            entrenadorRepositorio.hacerActivoEntrenador(entrenador);
             return listadoEntrenadores(model);
         }
         else{
-            return "paginaError";
+            entrenadorRepositorio.hacerInactivoEntrenador(entrenador);
+            return listadoEntrenadores(model);
         }
     }
 

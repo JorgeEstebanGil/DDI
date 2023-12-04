@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Formulario inserción entrenador</title>
+    <title>Formulario</title>
 </head>
 <body>
+<form th:action="@{/insertarEntrenador}" th:object="${entrenador}" method="post">
+    <h3>ID</h3>
+    <input type="hidden" th:field="*{entrenador.id}" />
+    <h3>Nombre</h3>
+    <input type="text" th:field="*{entrenador.nombre}" />
 
-<h1>Insertar un nuevo entrenador</h1>
-<form action="#" th:action="@{/insertarEntrenador}" th:object="${entrenador}" method="post">
-    <p>Nombre: <input type="text" th:field="*{nombre}"></p>
-    <p><input type="submit" value="Insertar"></p>
+    <input type="submit" value="Enviar" />
 </form>
-<a th:href="@{/listaEntrenadores}"><h3>Volver al listado de entrenadores</h3></a>
-<a th:href="@{/}"><h3>Volver al índice</h3></a>
-
 </body>
 </html>
