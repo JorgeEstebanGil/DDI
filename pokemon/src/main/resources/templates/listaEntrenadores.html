@@ -5,7 +5,7 @@
     <title>Listado de entrenadores</title>
 </head>
 <body>
-<table style="border:solid 2px; border-radius: 10px; color: darkcyan">
+<table>
     <tr>
         <th>Id</th>
         <th>Nombre</th>
@@ -17,7 +17,7 @@
         <td th:text="${entrenadores.active}"></td>
     </tr>
 </table>
-<a th:href="@{/formInsertarEntrenador.html}"><h3>Insertar un nuevo entrenador</h3></a>
+<a th:href="@{/templates/formEntrenador.html}"><h3>Insertar un nuevo entrenador</h3></a>
 <a th:href="@{/}"><h3>Volver al índice</h3></a>
 </body>
 </html>

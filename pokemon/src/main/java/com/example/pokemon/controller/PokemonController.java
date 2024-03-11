@@ -5,7 +5,6 @@ import java.util.List;
 import com.example.pokemon.modelos.Pokemon;
 import com.example.pokemon.modelos.Region;
 import com.example.pokemon.repositorio.PokemonRepositorio;
-import com.example.pokemon.repositorio.PokemonRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -30,7 +29,7 @@ public class PokemonController {
         return "listaPokemon";
     }
 
-    @RequestMapping("/formPokemon")
+    @RequestMapping("/formInsertarPokemon")
     public String formInsertarPokemon(Model model){
         Pokemon pokemon = new Pokemon();
         model.addAttribute("nuevoPokemon", pokemon);
