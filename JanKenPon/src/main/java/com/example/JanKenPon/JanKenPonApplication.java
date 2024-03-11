@@ -9,5 +9,5 @@ public class JanKenPonApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JanKenPonApplication.class, args);
 	}
-
 }
+
