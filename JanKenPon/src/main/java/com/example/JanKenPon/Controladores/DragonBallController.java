@@ -38,7 +38,7 @@ public class DragonBallController {
         }
 
         // Simula la recolección de una bola de dragón
-        DragonBall dragonBall = new DragonBall("Ubicación", ball);
+        DragonBall dragonBall = new DragonBall("Ubicación", ball, true);
         ownedDragonBalls.add(dragonBall);
         dragonBallsSpread.removeIf(db -> db.getNumEstrellas() == ball);
 
