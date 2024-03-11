@@ -10,12 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/dragonball")
 public class DragonBallController {
-    private List<DragonBall> dragonBallsSpread = new ArrayList<>();
-    private List<DragonBall> ownedDragonBalls = new ArrayList<>();
+    private final List<DragonBall> dragonBallsSpread = new ArrayList<>();
+    private final List<DragonBall> ownedDragonBalls = new ArrayList<>();
 
     @GetMapping("/radar")
     public ResponseEntity<List<DragonBall>> listDragonBallsSpread() {
@@ -30,11 +31,17 @@ public class DragonBallController {
     }
 
     @PostMapping("/get")
-    public ResponseEntity<DragonBall> getDragonBall(int ball) {
+    public ResponseEntity<?> getDragonBall(int ball) {
+        if (ownedDragonBalls.size() >= 7) {
+            // No se puede recoger más de 7 bolas de dragón
+            return ResponseEntity.badRequest().body("Ya posees todas las 7 bolas de dragón");
+        }
+
         // Simula la recolección de una bola de dragón
         DragonBall dragonBall = new DragonBall("Ubicación", ball);
         ownedDragonBalls.add(dragonBall);
         dragonBallsSpread.removeIf(db -> db.getNumEstrellas() == ball);
+
         return ResponseEntity.ok(dragonBall);
     }
 
@@ -47,5 +54,19 @@ public class DragonBallController {
         } else {
             return ResponseEntity.badRequest().body("Necesitas recolectar todas las 7 bolas de dragón primero");
         }
+    }
+
+    @GetMapping("/get")
+    public ResponseEntity<DragonBall> getDragonBallWithStardots(int stardots) {
+        List<DragonBall> foundBalls = ownedDragonBalls.stream()
+                .filter(db -> db.getNumEstrellas() == stardots)
+                .collect(Collectors.toList());
+
+        if (foundBalls.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        }
+
+        DragonBall dragonBall = foundBalls.get(0);
+        return ResponseEntity.ok(dragonBall);
     }
 }
