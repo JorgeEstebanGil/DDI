@@ -4,7 +4,6 @@ package com.example.JanKenPon.Modelos;
 public class DragonBall {
     private String ubicacion;
     private int numEstrellas;
-    private int stardots = numEstrellas;
     private boolean found;
 
     public DragonBall(String ubicacion, int numEstrellas, boolean found) {
@@ -30,14 +29,6 @@ public class DragonBall {
 
     public void setNumEstrellas(int numEstrellas) {
         this.numEstrellas = numEstrellas;
-    }
-
-    public int getStardots() {
-        return stardots;
-    }
-
-    public void setStardots(int stardots) {
-        this.stardots = stardots;
     }
 
     public boolean isFound() {

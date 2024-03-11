@@ -12,8 +12,8 @@ import java.util.List;
 @RequestMapping("/jankenpon")
 public class JanKenPonController {
 
-    private List<RoundResult> j1Results = new ArrayList<>();
-    private List<RoundResult> j2Results = new ArrayList<>();
+    private List<RoundResult> j1 = new ArrayList<>();
+    private List<RoundResult> j2 = new ArrayList<>();
 
     @PostMapping("/play")
     public ResponseEntity<RoundResult> playRound(@RequestParam String jugador1, @RequestParam String jugador2) {
@@ -22,7 +22,7 @@ public class JanKenPonController {
 
         // Almacenar el resultado para el jugador 1 (J1)
         if (jugador1.equals("j1")) {
-            j1Results.add(roundResult);
+            j1.add(roundResult);
         }
 
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(roundResult);
@@ -31,13 +31,13 @@ public class JanKenPonController {
     @GetMapping("/results/j1")
     public ResponseEntity<List<RoundResult>> getPlayer1Results() {
         // Devolver los resultados almacenados para el jugador 1 (J1)
-        return ResponseEntity.ok(j1Results);
+        return ResponseEntity.ok(j1);
     }
 
     @GetMapping("/results/j2")
     public ResponseEntity<List<RoundResult>> getPlayer2Results() {
         // Devolver los resultados almacenados para el jugador 2 (J2)
-        return ResponseEntity.ok(j2Results);
+        return ResponseEntity.ok(j2);
     }
 
     private String determineWinner(String player1, String player2) {

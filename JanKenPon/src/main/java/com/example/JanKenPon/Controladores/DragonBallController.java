@@ -18,6 +18,8 @@ public class DragonBallController {
     private final List<DragonBall> dragonBallsSpread = new ArrayList<>();
     private final List<DragonBall> ownedDragonBalls = new ArrayList<>();
 
+    private final List<Integer> stardots = List.of(1, 2, 3, 4, 5, 6, 7);
+
     @GetMapping("/radar")
     public ResponseEntity<List<DragonBall>> listDragonBallsSpread() {
         // Devuelve la lista de bolas de dragón dispersas por el mundo
