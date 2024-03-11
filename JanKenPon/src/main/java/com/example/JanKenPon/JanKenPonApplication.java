@@ -1,13 +1,13 @@
-package com.example.PiedraPapelTijera;
+package com.example.JanKenPon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PiedraPapelTijeraApplication {
+public class JanKenPonApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PiedraPapelTijeraApplication.class, args);
+		SpringApplication.run(JanKenPonApplication.class, args);
 	}
 
 }
