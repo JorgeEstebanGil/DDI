@@ -11,6 +11,8 @@ public class RoundResult {
         this.winner = winner;
     }
 
+    public RoundResult() {
+    }
     public String getPlayer() {
         return winner;
     }
